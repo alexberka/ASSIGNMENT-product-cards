@@ -106,3 +106,11 @@ h5 {
 hr {
   margin: 2px auto;
 }
+
+.sold-out {
+  position: absolute;
+  width: 140%;
+  top: 110px;
+  left: -57px;
+  z-index: 3;
+}
