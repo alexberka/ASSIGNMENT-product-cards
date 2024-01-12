@@ -3,9 +3,10 @@
 }
 
 body {
-  background: linear-gradient(lightcyan, rgb(180, 241, 180));
+  background: linear-gradient(#B2EBF2, #00BCD4);
   margin: 20px auto;
   width: 1200px;
+  font-family: 'Kanit', sans-serif;
 }
 
 h3 {
@@ -24,11 +25,13 @@ h5 {
   margin: 20px auto;
   text-align: center;
   font-size: 50px;
+  -webkit-box-shadow: 13px 13px 5px #666a74, -13px -13px 5px #cddc3984;
+  box-shadow: 13px 13px 5px #666a74, -13px -13px 5px #cddc3984;
 }
 
 .card-container {
   width: 1000px;
-  margin: auto;
+  margin: 40px auto;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
@@ -39,6 +42,8 @@ h5 {
   margin: 0 auto auto auto;
   padding: 10px;
   border: 1px solid black;
+  -webkit-box-shadow: 13px 13px 5px #666a74, -13px -13px 5px #cddc3984;
+  box-shadow: 13px 13px 5px #666a74, -13px -13px 5px #cddc3984;
 }
 
 .product-name {
